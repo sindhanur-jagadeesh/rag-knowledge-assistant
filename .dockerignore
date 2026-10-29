@@ -1,0 +1,13 @@
+
+.git
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+chroma_store/
+vectorstore/
+data/
+.streamlit/secrets.toml

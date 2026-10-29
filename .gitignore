@@ -1,0 +1,46 @@
+# Python environment
+venv/
+.venv/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Vector DB / data
+vectorstore/
+data/raw/
+
+# OS files
+.DS_Store
+
+
+secrets/
+*.swp
+
+
+data/processed/
+
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Virtual environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local vector database and generated data
+chroma_store/
+vectorstore/
+data/raw/
+data/processed/
+
+# Local development files
+.streamlit/secrets.toml
+.DS_Store
